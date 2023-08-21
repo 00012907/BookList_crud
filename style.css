@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    transition: ease-in 0.2s;
+}
+
+body {
+    max-width: 1440px;
+    background-image: url('./books.jpg');
+    background-size: cover;
+}
+
+.container {
+    width: 500px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 20px;
+    background-color: #fff;
+    height: 80vh;
+    border-radius: 6px;
+}
+
+h1 {
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+}
+
+form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 6px;
+}
+
+form input:focus {
+    border: 1px solid darkred;
+}
+
+form button {
+    background-color: darkred;
+    color: #fff;
+    border: none;
+    padding: 6px 8px;
+    font-weight: 600;
+    border-radius: 6px;
+    font-size: 17px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: black;
+}
+
+li {
+    border-radius: 6px;
+    width: 300px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    background-color: darkred;
+    color: white;
+    justify-content: space-between;
+    padding: 8px 10px;
+    border: 2px solid darkred;
+}
+
+
+li .btns {
+    display: flex;
+    gap: 10px;
+}
+
+i {
+    color: #fff;
+}

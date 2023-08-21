@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books CRUD</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Books I read</h1>
+        <form>
+            <input type="text" placeholder="Book title" id="book_name">
+            <button id="add_btn">ADD</button>
+        </form>
+        <ul id="list">
+            <li>
+                <span class="book_title">Pride and Prejudice</span>
+                <div class="btns">
+                    <a href="#" id="edit_btn"><i class="fa-solid fa-pen"></i></a>
+                    <hr>
+                    <a href="#" id="delete_btn"><i class="fa-solid fa-trash"></i></a>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    
+    <script src="./main.js"></script>
+</body>
+</html>
